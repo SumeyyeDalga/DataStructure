@@ -1,0 +1,11 @@
+src/DSA/Graphs/AdjacencyVect.java
+src/DSA/Graphs/GCA/GCASolution.java
+src/DSA/Graphs/GCA/GreedyGCA.java
+src/DSA/Graphs/GTUGraph.java
+src/DSA/Graphs/MatrixGraph.java
+src/DSA/Sorting/GTUInsertSort.java
+src/DSA/Sorting/GTUQuickSort.java
+src/DSA/Sorting/GTUSelectSort.java
+src/DSA/Sorting/GTUSorter.java
+src/Main/Main.java
+src/Main/MyTest.java

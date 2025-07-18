@@ -1,0 +1,29 @@
+create planetSystem Sol -5778 6340 0.0 63.1
+create planetSystem Sol 5778 6340 1.0 63.1
+create planetSystem Sol 5778 6340 0.0 0.0
+create planetSystem Sol 5778 6340 0.0 63.1
+addPlanet Mercury Sol 430 0.01 0.0 12.5
+addPlanet Venus Mercury 735 9200 0.2 5.2
+addPlanet Earth Venus 288 101.3 60.0 1.0
+addPlanet Vulcan FakeStar 500 10.0 0.0 5.0
+addPlanet Mercury Sol 400 0.02 0.0 10.0
+addPlanet Vulcan Sol 500 10.0 0.0 5.0
+addSatellite Moon Earth 120 0.0001 0.0 -3.2
+addSatellite Moon Earth 120 0.0001 0.0 3.2
+addPlanet Mars Earth 150 0.0001 0.0 9.8
+addSatellite Moon Mars 100 0.0001 0.0 2.0
+addSatellite Phobos Mars 150 0.0001 0.0 9.8
+addSatellite Deimos Mars 100 0.0001 0.0 120.0
+addSatellite Ganymede Jupiter 110 0.2 0.1 18.9
+findRadiationAnomalies 0.5
+findRadiationAnomalies 10.0
+findRadiationAnomalies 200.0
+getPathTo Sol
+getPathTo Venus
+getPathTo Phobos
+getPathTo Neptün
+printMissionReport
+printMissionReport Earth
+printMissionReport Moon
+printMissionReport Europa
+exit

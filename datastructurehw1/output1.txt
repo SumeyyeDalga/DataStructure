@@ -1,0 +1,44 @@
+find src -name "*.java" > sources.txt
+javac -d build @sources.txt
+java -cp build Main.Main
+HW System initialized. Enter commands:
+Command: list of ports:
+0 I2C empty
+1 SPI empty
+2 OneWire empty
+3 UART empty
+Command: Command: Command: Command: list of ports:
+0 I2C occupied LCD Display 0 OFF
+1 SPI occupied SparkFun Motor Driver -1 OFF
+2 OneWire occupied DHT11 Sensor 0 OFF
+3 UART empty
+Command: list of Displays:
+LCD 0 0 I2C
+Command: I2C: Writing "turnON".
+LCD is ON
+Command: I2C: Writing "Displaying: Hello".
+Command: list of MotorDrivers:
+SparkFun -1 1 SPI
+Command: SPI: Writing "turnON".
+SparkFun Motor Driver is ON
+Command: SPI: Writing "Setting motor speed to 10".
+Command: list of Sensors:
+DHT11 0 2 OneWire
+Command: OneWire: Writing "turnON".
+DHT11 is ON
+Command: DHT11 Sensor: Temperature: 25,00C
+Command: list of WirelessIOs:
+Command: No device on port 3.
+Command: Invalid wireless adapter ID.
+Command failed.
+Command: Invalid wireless adapter ID.
+Command failed.
+Command: I2C: Writing "turnOFF".
+LCD is OFF
+Command: SPI: Writing "turnOFF".
+SparkFun Motor Driver is OFF
+Command: OneWire: Writing "turnOFF".
+DHT11 is OFF
+Command: No device on port 3.
+Command: Command: Command: Command: No device on port 3.
+Command: Exiting...

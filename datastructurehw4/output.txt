@@ -1,0 +1,78 @@
+find src -name "*.java" > sources.txt
+javac -d build @sources.txt
+java -cp build Main 
+--Enter command:--Enter command:--Enter command:Planetary system created with star: Sol
+--Enter command:--Enter command:Planet Mercury added under Sol
+--Enter command:Planet Venus added under Mercury
+--Enter command:Planet Earth added under Venus
+--Enter command:--Enter command:--Enter command:--Enter command:--Enter command:Satellite Moon added under Earth
+--Enter command:Planet Mars added under Earth
+--Enter command:--Enter command:Satellite Phobos added under Mars
+--Enter command:Satellite Deimos added under Mars
+--Enter command:--Enter command:Anomalies found: Mercury - Venus - Earth - Moon - Mars - Phobos - Deimos
+--Enter command:Anomalies found: Mercury - Deimos
+--Enter command:No anomalies found.
+--Enter command:Sol
+--Enter command:Sol - Mercury - Venus
+--Enter command:Sol - Mercury - Venus - Earth - Mars - Phobos
+--Enter command:--Enter command:Report for Sol
+    Node Type: Star
+    Temperature: 5778.0 Kelvin
+    Pressure: 6340.0 Pascal
+    Humidity: 0.0
+    Radiation: 0.0
+    Report for Mercury
+        Node Type: Planet
+        Temperature: 430.0 Kelvin
+        Pressure: 0.01 Pascal
+        Humidity: 0.0
+        Radiation: 12.5
+        Report for Venus
+            Node Type: Planet
+            Temperature: 735.0 Kelvin
+            Pressure: 9200.0 Pascal
+            Humidity: 0.2
+            Radiation: 5.2
+            Report for Earth
+                Node Type: Planet
+                Temperature: 288.0 Kelvin
+                Pressure: 101.3 Pascal
+                Humidity: 60.0
+                Radiation: 1.0
+                Report for Moon
+                    Node Type: Satellite
+                    Temperature: 120.0 Kelvin
+                    Pressure: 1.0E-4 Pascal
+                    Humidity: 0.0
+                    Radiation: 3.2
+                Report for Mars
+                    Node Type: Planet
+                    Temperature: 150.0 Kelvin
+                    Pressure: 1.0E-4 Pascal
+                    Humidity: 0.0
+                    Radiation: 9.8
+                    Report for Phobos
+                        Node Type: Satellite
+                        Temperature: 150.0 Kelvin
+                        Pressure: 1.0E-4 Pascal
+                        Humidity: 0.0
+                        Radiation: 9.8
+                    Report for Deimos
+                        Node Type: Satellite
+                        Temperature: 100.0 Kelvin
+                        Pressure: 1.0E-4 Pascal
+                        Humidity: 0.0
+                        Radiation: 120.0
+--Enter command:Report for Earth
+    Node Type: Planet
+    Temperature: 288.0 Kelvin
+    Pressure: 101.3 Pascal
+    Humidity: 60.0
+    Radiation: 1.0
+--Enter command:Report for Moon
+    Node Type: Satellite
+    Temperature: 120.0 Kelvin
+    Pressure: 1.0E-4 Pascal
+    Humidity: 0.0
+    Radiation: 3.2
+--Enter command:--Enter command:Exiting...

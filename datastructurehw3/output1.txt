@@ -1,0 +1,39 @@
+find src -name "*.java" > sources.txt
+javac -d build @sources.txt
+java -cp build Main.Main config.txt ./logs
+HW System initialized. Enter commands:
+Command: Command: Command: Command: Command: Command: Command: Command: Command: Command: Command: Command: Command: Command: Command: Command: Command: Command: Command: Command: Command: Command: Command: Command: Command: Command: Command: Device added.
+Device added.
+Device added.
+Device added.
+list of ports:
+0 I2C occupied LCD Display 0 OFF
+1 SPI occupied SparkFun MotorDriver 0 OFF
+2 OneWire occupied DHT11 TempSensor Sensor 0 OFF
+3 UART occupied Wifi WirelessIO 0 OFF
+list of Displays:
+LCD 0 0 I2C
+LCD: Turning ON.
+LCD: Printing "Hello".
+list of MotorDrivers:
+SparkFun 0 1 SPI
+SparkFun Motor Driver: Turning ON.
+SparkFun: Setting speed to 10.
+list of Sensors:
+DHT11 0 2 OneWire
+DHT11: Turning ON.
+DHT11 TempSensor Sensor: Temperature: 24,00C.
+list of WirelessIOs:
+Wifi 0 3 UART
+Wifi: Turning ON.
+Wifi Received: "<UART> Reading" .
+Wifi Sending "Hello" .
+LCD: Turning OFF.
+SparkFun Motor Driver: Turning OFF.
+DHT11: Turning OFF.
+Wifi: Turning OFF.
+Device removed.
+Device removed.
+Device removed.
+Device removed.
+Exiting...
